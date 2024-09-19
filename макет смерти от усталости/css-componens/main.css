@@ -1,0 +1,66 @@
+.main_section--buy {
+    background: url(../images/Group\ 37\ \(1\)\ 1.png) center/cover no-repeat;
+}
+
+.main_container {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.main_section--buy-logo {
+    padding-top: 94px;
+    padding-left: 14px;
+}
+
+.main_section--buy--title {
+    font-family: Playfair Display;
+    font-size: 144px;
+    font-weight: 400;
+    line-height: 191.95px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.main_section--buy--h2title {
+    margin-bottom: 12px;
+    margin-top: -30px;
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 95.98px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.main_section--buy--text {
+    margin-bottom: 41px;
+    max-width: 508px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.buy_button {
+    cursor: pointer;
+    border: 0;
+    margin-bottom: 183px;
+    width: 254px;
+    height: 67px;
+    border-radius: 10px;
+    background: #8E32C6;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    color: #FFFFFF;
+}
+
+.main_second--card_section {
+    background: url(../images/Group\ 8\ 1.png) center/cover no-repeat;
+}
+
