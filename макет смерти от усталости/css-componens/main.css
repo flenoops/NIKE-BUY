@@ -62,5 +62,151 @@
 
 .main_second--card_section {
     background: url(../images/Group\ 8\ 1.png) center/cover no-repeat;
+    padding-bottom: 106px;
+    padding-top: 106px;
 }
 
+.main_second--card_section .main_container {
+    border: 5px solid #8E32C6;
+}
+
+.main_second--cards {
+    display: flex;
+    justify-content: center;
+    padding: 25px 50px;
+    gap: 95px;
+}
+
+.main_second--card--text {
+    max-width: 160px;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 47.99px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main_second--card:first-child {
+    border-right: 1px solid #FFFFFF;
+    padding-right: 50px;
+}
+
+.main_second--card:last-child {
+    border-left: 1px solid #FFFFFF;
+    padding-left: 50px;
+}
+
+.main_second--card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_third--section {
+    background: url(../images/Group\ 6\ 1.png) center/cover no-repeat;
+    padding-top: 24px;
+    position: relative;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.bag_flower {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.main_third--title {
+    display: flex;
+    justify-content: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 63.98px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main_third--section .main_container {
+    max-width: 951px;
+}
+
+.main_third--cards {
+    display: flex;
+    margin-top: 24px;
+    gap: 93px;
+    padding-bottom: 104px;
+}
+
+.main_third--card {
+    padding: 49px 14px 29px 14px;
+    border-radius: 15px;
+}
+
+.main_third--card:first-child {
+    background: linear-gradient(136.55deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    box-shadow: 0px 30px 0px -13px #533978;
+    box-shadow: 0px 14px 0px -5px #7B54B2;
+
+}
+
+.main_third--card:nth-child(2) {
+    background: linear-gradient(136.55deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 30px 0px -13px #61337C;
+    box-shadow: 0px 14px 0px -5px #9159B1;
+}
+
+.main_third--card:nth-child(3) {
+    background: linear-gradient(142.67deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 30px 0px -13px #732F26;
+    box-shadow: 0px 14px 0px -5px #B95A4C;
+}
+
+.main_third--card--text {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: left;
+    color: #FFFFFF;
+    max-width: 228px;
+    margin-bottom: 8px;
+}
+
+.main_third--card--date {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    color: #D8D8D8;
+    margin-bottom: 47px;
+}
+
+.main_third--card--info {
+    display: flex;
+    gap: 5px;
+}
+
+.main_third--card--name {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.main_third--card--started--date {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: left;
+    color: #D8D8D8;
+}
+
+.main_fourth--section {
+    background: url(../images/Group\ 2\ 1.png) center/cover no-repeat;
+}
